@@ -46,12 +46,25 @@ def main():
     r2 = Rectangle(10, 15)
     print(r2)
     print("Area:", r2.area_calculator())
+
     # call the __eq__ method
     print(r1 == r2)
     print()
 
     # you can create additional rectangle objects to 
     # test your code or learn more about how the class behaves
+
+    r4 = Rectangle(5, 10)
+    print(r4)
+    print("Area:", r4.area_calculator())
+
+    r5 = Rectangle(5, 10)
+    print(r5)
+    print("Area:", r5.area_calculator())
+    
+    print(r4 == r5)
+    print()
+
     pass
 
 if __name__ == "__main__":
