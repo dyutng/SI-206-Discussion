@@ -24,7 +24,7 @@ class Rectangle():
 
 
     # Create the "__eq__" method
-    # 
+
     # Returns a boolean value
 
     # YOUR CODE HERE
