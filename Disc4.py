@@ -30,6 +30,10 @@ class Rectangle():
     # YOUR CODE HERE
     
     def __eq__(self, other):
+        if (self.width == other.width) and (self.height == other.height):
+            return True
+        else:
+            return False
 
 def main():
     r1 = Rectangle(10, 10)
