@@ -1,5 +1,7 @@
 import math
 
+#test
+
 class Rectangle():
     # Create the constructor "__init__" method
 
@@ -24,9 +26,6 @@ class Rectangle():
     # Returns a boolean value
 
     # YOUR CODE HERE
-
-
-    
 
 def main():
     r1 = Rectangle(10, 10)
