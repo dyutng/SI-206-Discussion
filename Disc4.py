@@ -2,7 +2,6 @@ import math
 
 class Rectangle():
     # Create the constructor "__init__" method
-
     # YOUR CODE HERE
     
     def __init__(self, width, height):
@@ -10,23 +9,20 @@ class Rectangle():
         self.height = height
 
     # Create the "__str__" method
-
     # YOUR CODE HERE
 
     def __str__(self):
         return f"A rectangle with width {self.width} and height {self.height}"
 
     # Create the "area_calculator" method
-
     # YOUR CODE HERE
+
     def area_calculator(self):
         return float(self.width * self.height)
 
 
     # Create the "__eq__" method
-
     # Returns a boolean value
-
     # YOUR CODE HERE
     
     def __eq__(self, other):
@@ -37,8 +33,10 @@ class Rectangle():
 
 def main():
     r1 = Rectangle(10, 10)
+
     # call the __str__ method
     print(r1)
+    
     # call the area_calculator method
     print("Area:", r1.area_calculator())
 
